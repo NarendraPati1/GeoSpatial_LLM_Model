@@ -13,6 +13,9 @@ This project demonstrates a basic geospatial reasoning system powered by AI (LLa
 - 🛠️ **Modular Architecture**: Easily extendable to other locations or new query types.
 
 ---
+## Demo
+
+![Geospatial AI Assistant](demo.png)
 
 ## 📁 Required Data
 
