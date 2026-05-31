@@ -78,26 +78,7 @@ The following datasets are needed (preferably clipped to **Pune district**):
 
 ## ⚠️ Limitations
 
-- 🚧 This is a **basic prototype**, intended as a proof-of-concept.
-- ⚙️ Currently supports only **static queries** with **manually validated results**.
 - 📍 Limited to **Pune district** – generalization to other districts requires manual setup.
 - 🤖 No live model inference or cloud deployment (runs locally).
 - 🗣️ LLM does **not actually run spatial operations**; it only generates reasoning steps (Chain-of-Thought) which are interpreted in Python.
 
----
-
-## ✅ Next Steps
-
-- Integrate dynamic user queries with automatic tool execution.
-- Improve generalization to more regions.
-- Add live map and chart panels (via Streamlit or React).
-- Introduce feedback mechanism to refine LLM reasoning.
-
----
-
-## 🤝 Acknowledgments
-
-- ISRO Bhuvan Portal for geospatial datasets
-- Meta AI for the LLaMA model
-- Hugging Face for model distribution
-- OpenStreetMap contributors
